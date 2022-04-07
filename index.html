@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <!-- 
+  Code Made By Nais ID
+  Youtube: Nais ID
+  Tiktok: @hanizapunyaa
+  -->
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+      div {width: 120px; margin: auto; display: flex; justify-content: space-between;}
+
+      button {
+        padding: 5px 7px;
+      }
+    </style>
+    <title>Just For You &#129505</title>
+  </head>
+  <body style="text-align: center">
+    <img src="Foto.gif" alt="NaisID" style="height: 280px" />
+    <h1>Hai Cantik</h1>
+    <h2>Kamu mau gak jadi pacar aku?</h2>
+    <div>
+      <button onclick="mau()">MAU</button>
+      <button onmouseover="gak(this)">ENGGAK</button>
+    </div>
+    <script>
+      function mau() {
+        alert("Makasih ya udah mau nerima aku jadi pacar kamu :)");
+        alert("I Love You");
+        alert("Kirim jawabannya ke WA aku ya");
+
+        location.assign("https://ultramsg.com/m/3ueCZif");
+      }
+      function gak(ini) {
+        ini.style.position = "absolute";
+        ini.style.left = `${Math.floor(Math.random() * 90)}%`;
+        ini.style.top = `${Math.floor(Math.random() * 90)}%`;
+      }
+    </script>
+  </body>
+</html>
